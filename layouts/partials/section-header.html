@@ -1,0 +1,27 @@
+<!-- <hr class="menu-sep"> -->
+{{ if (not  .IsHome ) }}
+<section role="navigation" aria-label="Section navigation" class="section-nav">
+    <!-- <div class=""> -->
+<h1 class="section-title">{{ .CurrentSection.Title }}</h1>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'>☰</div>
+  </label>
+    <ul class="menu">
+
+
+        {{ $pages := where .CurrentSection.Pages ".Params.categories" "intersect" (slice "Scenario" "Late Scenario" "Sketch / Mockup") }}
+        {{ $menu_pages := where .CurrentSection.Pages "not in" $pages }}
+        {{ debug.Dump $menu_pages }}
+        {{range $pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+            {{ end }}
+
+
+
+
+    </ul>
+    <!-- </div> -->
+</section>
+<!-- <hr class="menu-sep"> -->
+{{ end }}

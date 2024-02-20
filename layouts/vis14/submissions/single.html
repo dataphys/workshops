@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+<h2>{{ .Title }}</h2>
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
+      {{- .Content -}}
+      {{ if index .Params "user_submit_pdf" }}<div id="pdf-link">Submission: <a href="{{ .Site.BaseURL }}{{ .Params.user_submit_pdf }}">{{ .Title }}</a></div>{{ end }}
+    </div>
+
+
+  </article>
+{{ end }}

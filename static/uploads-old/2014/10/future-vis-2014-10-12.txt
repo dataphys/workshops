@@ -1,0 +1,203 @@
+
+Paper for
+http://beyond.wallviz.dk/
+
+
+
+
+
+"The Future of Exploratory and Explanatory Visualisations"
+
+Keith Andrews, Graz University of Technology
+Johanna Pirker, Graz University of Technology
+Vedran Sabol, Know-Center, Graz
+
+
+
+
+Abstract
+--------
+
+The design of a visualisation invariably depends upon the task(s) and
+the target user group it is designed to support. Exploratory and
+explanatory visualisations generally require different considerations.
+We consider the future of visualisations under this aspect.
+
+
+
+Keywords:
+
+
+
+
+1. Introduction
+---------------
+
+In order to envision a future of visualisation without desktop
+computing, it is beneficial to start by considering future contexts of
+use and potential tasks.
+
+Particular applications of visualisation are often classified
+according to their purpose: _exploratory_ or _explanatory_ [Ref].
+Exploratory visualisation is usually associated with the exploration
+and analysis of an unfamiliar dataset in search of insights.
+Exploratory visualisations are typically used by trained experts in
+visual analysis, often with powerful computing hardware and large
+(sometimes multiple) screens.
+
+In contrast to exploratory visualisation, explanatory visualisation is
+typically used to convey one or more insights into a dataset _once_
+the insights have been discovered. A typical example might be an
+interactive graphic prepared for an online newspaper, perhaps with an
+interactive storyline snychronised to a series of predetermined views
+of the dataset to illustrate particular aspects of the narative.
+Explanatory visualisations are sometimes used to convey a particular
+perspective on a dataset, according to the underlying intentions of
+the author. If it is easy to lie with statistics, it is even easier
+with an explanatory visualisation!
+
+Computing hardware is becoming increasingly powerful and ever smaller
+with decreasing power requirements. At the same time, the desktop
+metaphor and its WIMP (windows, icons, menus, pointer) [Ref] style of
+interaction, predominant for over 3 decades, now has some serious
+competition. Much smaller displays (than desktop monitors) and much
+larger displays are both increasingly more commonplace. Augmented
+reality and immersive technologies offer further possibilities for
+output to a user. Touch interfaces (characteristic of smartphones and
+tablets), gestures (Wii and Kinect), and voice (Siri and Android) all
+provide alternative means of user input.
+
+
+
+
+2. Future Exploratory Visualisation
+-----------------------------------
+
+Exploratory visualisation today is typically performed by trained,
+highly skilled, expert analysts. We do not expect this to change. The
+displays used today are typically large and visually dense. We do not
+expect this to change either.
+
+On the visual analyst's desktop, very high resolution displays, or
+banks of several connected displays next to one another [SMM2013] are
+possible now; the descreasing cost of corresponding graphics cards and
+monitors will see this trend continue. We would expect, however, the
+keyboard and mouse to continue to be the main mode of interaction with
+these systems.
+
+Some researchers have experimented with room-sized display walls
+[LHWT2005]. In addition to the more obvious problems of synchronising
+output to multiple tiled displays, there is the additional problem of
+how to enable user interaction with such displays. Since the
+traditional mouse and keyboard proved insufficient, researchers have
+experimented with gesture and voice input [SBA2007].
+
+From their beginnings with the CAVE [CSD1993], virtual enviroments
+such as the DAVE [LSF2008] have been adapted for exploratory
+visualisation applications. In a prototype at Graz University of
+Technology, a virtual world representing the city of Graz has been
+built, in which dust clouds are used to represent location-based
+air-pollution statistics. The density of the clouds rendered in
+different city parts represents the mean concentration at the specific
+location. The multi-user capability of such recent virtual
+environments allows the distinction between exploratory and
+explanatory visualisation to be blurred: an expert can collaboratively
+guide one or more visitors through the scenario.
+
+
+
+
+
+
+3. Future Explanatory Visualisation
+-----------------------------------
+
+Whilst we expect exploratory visualisations to move largely towards
+larger displays, explanatory visualisations are spreading to both
+larger and smaller displays simultaneously. The confluence of data
+journalism and responsive web design has led the charge to spread
+information graphics and explanatory visualisations to the general
+public. Newspapers such as the Boston Globe, New York Times, and the
+Guardian are actively developing explanatory visualisations which work
+well within the confines of a smartphone screen, as well as on more
+traditional desktop displays.
+
+In the context of public displays, we may see the introduction of
+wall-sized explanatory visualisations. For example, a wall-sized
+visualisation of the real-time locations of public transport vehicles
+such as Linz Fährt [Ref] could easily be realised for a bus station
+foyer.  How could the public interact with such a visualisation: maybe
+smartphones could be enhanced with a modified laser pointer (carrying
+some kind of id?), so that a viewer can point at a particular bus and
+call up its details?
+
+Explanatory visualisations and simulations are already being used
+inside virtual environments to help teach physics students about
+phenomena like Faraday’s Law [Ref]. Other applications of
+visualisations of 3d phenomena can easily be envisaged.
+
+
+
+
+
+4. Concluding Remarks
+---------------------
+
+
+To conclude, we see the future of visualisation as increasingly
+diverse. Displays will become both larger and smaller. Novel methods
+of interaction will be introduced to visualisations. And consideration
+of the purpose of a visualisaion will continue to drive the best
+design for a specific task and user group.
+
+
+
+
+
+
+References
+----------
+
+[CSD1993]
+  Carolina Cruz-Neira, Daniel J. Sandin, and Thomas A. DeFanti;
+  "Surround-Screen Projection-Based Virtual Reality:
+  The Design and Implementation of the CAVE";
+  Proc. SIGGRAPH'93
+  http://dx.doi.org/10.1145/166117.166134
+
+
+[LHWT2005]
+  Kai Li, Matthew Hibbs, Grant Wallace, and Olga Troyanskaya
+  "Dynamic Scalable Visualization for Collaborative
+  Scientific Applications";
+  Proc. 19th IEEE International Parallel and Distributed
+  Processing Symposium, 2005 (IPDPS 2005)
+  http://dx.doi.org/10.1109/IPDPS.2005.183
+
+
+[LSF2008]
+  M. Lancelle, V. Settgast, and D. Fellner;
+  "Definitely Affordable Virtual Environment";
+  Video at IEEE Virtual Reality 2008
+  http://www.cgv.tugraz.at/dave
+
+
+[SBA2007]
+  Daniel Stødle, John Markus Bjørndalen, and Otto J. Anshus;
+  "A System for Hybrid Vision- and Sound-Based Interaction with Distal
+  and Proximal Targets on Wall-Sized, High-Resolution Tiled Displays";
+  Proc. IEEE International Workshop on HCI 2007,
+  Rio de Janeiro, Brazil, 20 Oct 2007.
+  http://dx.doi.org/10.1007/978-3-540-75773-3_7
+
+
+[SMM2013]
+  Roberto Yuri da Silva Franco, Bianchi Serique Meiguins,
+  and Aruanda Simões Meiguins;
+  "PRISMA-MDE – Information visualization Environment
+  for Multiple Display";
+  Proc. 2013 Conference on Information Visualisation,
+  July 2013, London.
+  http://dx.doi.org/10.1109/IV.2013.18
+
+

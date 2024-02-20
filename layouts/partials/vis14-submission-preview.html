@@ -1,0 +1,12 @@
+      <article>
+      <h6><a href="{{ .Permalink }}">{{ .Title }}</a></h6>
+      {{ if index .Params "author" }}Submitted by: <strong>{{ .Params.author }}</strong>{{ if index .Params "user_submit_affiliation" }}, {{ index .Params.user_submit_affiliation 0}}  {{ end }}{{ end }} 
+{{ if index .Params "tags" }}<div class="futures-tags">Tags: {{ range .Params.tags }}{{ . }} {{ end }}</div>{{ end}}
+        <div>
+          {{ if index .Params "user_submit_pdf" }}<a href="{{ absURL .Params.user_submit_pdf }}">Submitted pdf</a>{{ end }}
+          {{ if index .Params "featured_image" }}<br><img class="vis14-submission-preview-image" src="{{ absURL .Params.featured_image }}">
+          {{ end }}
+          {{ .Content }}
+          
+        </div>
+      </article>

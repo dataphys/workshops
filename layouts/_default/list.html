@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
+    <h2>Workshops currently hosted on this site</h2>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      <ul>
+      {{ range .Site.Sections }}
+        <li class="list-of-workshops">
+          {{ if index .Params "year" }}<strong>{{ .Params.year }}:</strong> {{ end }}<a href="{{ .Permalink }}">{{ .Title }}</a> {{ if index .Params "conference" }}<br>Workshop held at <strong>{{ .Params.conference }}</strong>{{ end }}{{ if index .Params "organizer" }}<br> Organized by {{ .Params.organizer }}.{{ end }}
+        </li>
+      {{ end }}
+    </ul>
+    </section>
+  </article>
+{{ end }}

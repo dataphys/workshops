@@ -1,0 +1,23 @@
+<!-- <hr class="menu-sep"> -->
+<section role="navigation" aria-label="Main navigation" class="top-nav">
+    <!-- <div class=""> -->
+    {{ if .Site.Menus.main }}
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'>☰</div>
+  </label>
+    <ul class="menu">
+        {{ range .Site.Menus.main }}
+        <li class="">
+            <a class="" href="{{ .URL | relLangURL }}" title="{{ .Name }}">
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+        {{ end }}
+
+
+    </ul>
+    <!-- </div> -->
+</section>
+<!-- <hr class="menu-sep"> -->

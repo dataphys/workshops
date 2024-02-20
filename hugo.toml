@@ -1,0 +1,62 @@
+baseURL = 'http://dataphys.org/'
+languageCode = 'en-us'
+title = 'Data Physicalization Workshops'
+#theme = 'Ananke'
+
+[params]
+	custom_css = ['css/styles.css']
+
+[markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+[[menu.main]]
+  pageRef="/"
+  name = 'Home'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  pageRef="vis14" 
+  identifier = "VIS 14" 
+  name = 'VIS 14'
+  url = 'vis14'
+  weight = 20
+[[menu.main]]
+  pageRef="tei16"  
+  name = 'TEI 16'
+  url = 'tei16'
+  weight = 30
+[[menu.main]]
+  pageRef="drs16"
+  name = 'DRS 16'
+  url = 'drs16'
+  weight = 40
+[[menu.main]]
+  pageRef="dis17"
+  name = 'DIS 17'
+  url = 'dis17'
+  weight = 50
+[[menu.main]]
+  pageRef="vis18"
+  name = 'VIS 18'
+  url = 'vis18'
+  weight = 60
+[[menu.main]]
+  pageRef="chi23"
+  name = 'CHI 23'
+  url = 'chi23'
+  weight = 70
+[[menu.main]]
+  pageRef="infoplus23"
+  name = 'Info+ 23'
+  url = 'infoplus23'
+  weight = 80
+
+[[menu.vis14]]
+  pageRef="cfp"
+  name = 'Call for participation'
+  url = 'vis14/cfp'
+  weight = 10
+
+
+
