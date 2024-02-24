@@ -4,7 +4,7 @@
         background-size: 1200px auto;
 }" {{ end }}>
 <h1 class="section-title {{ .CurrentSection.Section }}">{{ .CurrentSection.Title }}</h1>
-{{ if index .Params "conference" }}<h3 class="section-description {{ .CurrentSection.Section }}">Workshop held at {{ .Params.conference }}{{ if index .Params "location" }} in {{ .Params.location }}{{ end }}</h3>{{ end }}</section>
+{{ if index .CurrentSection.Params "conference" }}<h3 class="section-description {{ .CurrentSection.Section }}">Workshop held at {{ .CurrentSection.Params.conference }}{{ if index .CurrentSection.Params "location" }} in {{ .CurrentSection.Params.location }}{{ end }}</h3>{{ end }}</section>
 <section role="navigation" aria-label="Section navigation" class="section-navigation {{ .CurrentSection.Section }}">
 
     <input id="menu-toggle" type="checkbox" />

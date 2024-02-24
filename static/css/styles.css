@@ -21,6 +21,10 @@ main, .title {
     margin: auto;
 }
 
+main {
+    margin-top: 30px;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -81,6 +85,14 @@ figure {
 
 img {
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.float-right {
+    float: right;
 }
 
 /* site header styles */
@@ -253,12 +265,16 @@ ul.menu li {
     padding: 0.5em;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section-navigation.vis14 > ul {
     background-color: #f7f5e7;
 
+}
+
+.section-navigation > ul {
+    background-color: #ccdddd;
 }
 
 
@@ -296,6 +312,7 @@ h1.section-title.vis18 {
 
 h3.section-description {
     padding-left: 1em;
+    margin-bottom: 0;
 }
 
 h3.section-description.vis14 {
@@ -315,6 +332,10 @@ h3.section-description.vis14 {
     max-height: 350px;
 }
 
+img.drs-img {
+    max-width: 600px;
+    max-height: 250px;
+}
 
 @media screen and  (max-width: 710px) {
   main, #logo-title-container, #menu-container {
