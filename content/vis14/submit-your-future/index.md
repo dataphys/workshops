@@ -25,10 +25,3 @@ Try to be concrete and to place your contribution in a timeframe in the future 
 
 > 2025 &#8211; Researchers at Oxford bypass the eye &#8211; stimulating neurons to communicate simple glyphs
 
-In case of problems with the submission process or further questions, please contact Yvonne Jansen  <[mailcrypt email=&#8221;yvja@di.ku.dk&#8221;]>.
-
-### The submission form:
-
-[user-submitted-posts]
-
- [1]: http://beyond.wallviz.dk/ "Scenarios"

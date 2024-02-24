@@ -4,7 +4,7 @@
 {{ if index .Params "tags" }}<div class="futures-tags">Tags: {{ range .Params.tags }}{{ . }} {{ end }}</div>{{ end}}
         <div>
           {{ if index .Params "user_submit_pdf" }}<a href="{{ absURL .Params.user_submit_pdf }}">Submitted pdf</a>{{ end }}
-          {{ if index .Params "featured_image" }}<br><img class="vis14-submission-preview-image" src="{{ absURL .Params.featured_image }}">
+          {{ if index .Params "featured_image" }}<div class="vis14-submission-preview-image-container"><img class="vis14-submission-preview-image" src="{{ absURL .Params.featured_image }}"></div>
           {{ end }}
           {{ .Content }}
           
