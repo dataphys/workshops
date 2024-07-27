@@ -1,7 +1,7 @@
 ---
 title: 'ZeroWaste Physkit: Fostering Sustainable Data Physicalization Education and Prototyping'
 author: Kim
-conference: 'Information+'
+conference: 'Information+ 2023'
 type: page
 year: 2023
 organizer: Sarah Hayes, Trevor Hogan, Rebecca Noonan, Denise Heffernan, Kim Sauvé, and Martin Lindrup

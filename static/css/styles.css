@@ -308,27 +308,32 @@ h1.section-title {
     margin-block-start: 0;
 /*    margin-block-end: 1em;*/
     font-size: xx-large;
-    padding-left: 1em;
+    padding-left: 20px;
 }
 
 h1.section-title.vis14 {
     color: white;
-    padding-left: 1em;
+    padding-left: 20px;
 
 }
 
 h1.section-title.vis18 {
     color: white;
-    padding-left: 1em;
+    padding-left: 20px;
     font-family: serif;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
     line-height: 1;
 
 }
 
+h3.section-description.vis18 {
+    color: white;
+    padding-left: 20px;
+}
+
 h3.section-description {
-    padding-left: 1em;
+    padding-left: 20px;
     margin-bottom: 0;
 }
 
