@@ -31,6 +31,17 @@ main {
   display: table;
 }
 
+p {
+    overflow: auto;
+}
+
+p:: after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
 /* header styles  */
 h1 {
     font-size: 1.5em;
@@ -93,6 +104,12 @@ a {
 
 .float-right {
     float: right;
+    margin-left: 2em;
+}
+
+.float-left {
+    float: left;
+    margin-right: 2em;
 }
 
 /* site header styles */

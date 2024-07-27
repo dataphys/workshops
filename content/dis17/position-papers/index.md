@@ -23,12 +23,12 @@ Aubrey Lawson and Eileen Kraemer. [Pedagogy of CS Unplugged: Lessons from Outrea
 
 Fearn Bishop and Uta Hinrichs. [Challenges of Running Constructive Visualization Studies with Children.][9] Extended Abstract for&nbsp;Workshop: Pedagogy & Physicalization: Designing Learning Activities around Physical Data Representations at Designing Interactive Systems Conference&nbsp;(DIS &rsquo;17). ACM, Edinburgh, United Kingdom.
 
- [1]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/Data_Phys_2017_Workshop-rev2.pdf
- [2]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/data_workshop_igwilt_AW.pdf
- [3]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/DataPhysWS_PositionPaper_vF_CR.pdf
- [4]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/DIS-17-_-Augmented-and-Tangible-interfaces_A-Tool-for-physicalization-VF.pdf
- [5]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/dis2017-workshop_JK.pdf
- [6]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/DISS2017_DataPhys_Position_final_170528.pdf
- [7]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/HybridFabricationofPhysicalization-DIS2016Workshop.pdf
- [8]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/Lawson_Kraemer_abstract.pdf
- [9]: http://dataphys.org/workshops/dis17/wp-content/uploads/sites/5/2017/06/TokenWorkshopCamera.pdf
+ [1]: /uploads-old/2017/06/Data_Phys_2017_Workshop-rev2.pdf
+ [2]: /uploads-old/2017/06/data_workshop_igwilt_AW.pdf
+ [3]: /uploads-old/2017/06/DataPhysWS_PositionPaper_vF_CR.pdf
+ [4]: /uploads-old/2017/06/DIS-17-_-Augmented-and-Tangible-interfaces_A-Tool-for-physicalization-VF.pdf
+ [5]: /uploads-old/2017/06/dis2017-workshop_JK.pdf
+ [6]: /uploads-old/2017/06/DISS2017_DataPhys_Position_final_170528.pdf
+ [7]: /uploads-old/2017/06/HybridFabricationofPhysicalization-DIS2016Workshop.pdf
+ [8]: /uploads-old/2017/06/Lawson_Kraemer_abstract.pdf
+ [9]: /uploads-old/2017/06/TokenWorkshopCamera.pdf

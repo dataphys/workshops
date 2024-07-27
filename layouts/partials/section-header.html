@@ -1,7 +1,7 @@
 <!-- <hr class="menu-sep"> -->
 {{ if (not  .IsHome ) }}
 <section class="section-header {{ .CurrentSection.Section }}" {{ if index .CurrentSection.Params "header_image" }} style="background: url({{ absURL .CurrentSection.Params.header_image }}) no-repeat scroll top; 
-        background-size: 1200px auto;
+        background-size: 100% auto;
 }" {{ end }}>
 <h1 class="section-title {{ .CurrentSection.Section }}">{{ .CurrentSection.Title }}</h1>
 {{ if index .CurrentSection.Params "conference" }}<h3 class="section-description {{ .CurrentSection.Section }}">Workshop held at {{ .CurrentSection.Params.conference }}{{ if index .CurrentSection.Params "location" }} in {{ .CurrentSection.Params.location }}{{ end }}</h3>{{ end }}</section>
