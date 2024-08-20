@@ -41,7 +41,7 @@
     {{ else }}
       <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
-
+    {{ partial "analytics.html" . }}
   </head>
 
   <body>

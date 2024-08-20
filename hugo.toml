@@ -1,7 +1,17 @@
-baseURL = 'http://dataphys.org/'
+baseURL = 'https://dataphys.org/workshops'
 languageCode = 'en-us'
 title = 'Data Physicalization Workshops'
-#theme = 'Ananke'
+
+enableGoogleAnalytics = true
+googleAnalytics = "G-0YFNNTBT65"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+
 
 [params]
 	custom_css = ['css/styles.css']
