@@ -5,9 +5,9 @@ date: 2014-11-02T23:34:31+00:00
 alias: /2014/11/03/2019-hidden-workstations-everywhere-personal-computing-for-visualization-in-the-mature-cloud-era/
 featured_image: uploads/fastx-ash-4k1-604x270.png
 user_submit_pdf: uploads/workstation.pdf
-featured_image:  
-  - uploads/dotd-use-case.jpg
-  - uploads/2014/11/fastx-ash-4k.png
+# featured_image:  
+#   - uploads/dotd-use-case.jpg
+#   - uploads/2014/11/fastx-ash-4k.png
 user_submit_affiliation:
   - University of Utah
 author: Aaron Knoll

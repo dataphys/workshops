@@ -3,7 +3,7 @@ title: Splinter in The Mind’s Eye
 type: post
 date: 2014-10-16T12:22:55+00:00
 alias: /2014/10/16/splinter-in-the-minds-eye/
-featured_image: uploads/f0cadce048ed1db8757a184016485c3d_400x4001-400x270.jpeg
+# featured_image: uploads/f0cadce048ed1db8757a184016485c3d_400x4001-400x270.jpeg
 snap_isAutoPosted:
   - 1
 snapTW:

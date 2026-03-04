@@ -3,7 +3,7 @@ title: '2139: The Dynamic Data Tattoo: Data at your fingertips – or anywhere e
 type: post
 date: 2014-10-19T12:16:18+00:00
 alias: /2014/10/19/2139-the-dynamic-data-tattoo-data-at-your-fingertips-or-anywhere-else-on-your-body/
-featured_image: uploads/datatattoo1-484x270.jpg
+# featured_image: uploads/datatattoo1-484x270.jpg
 snap_isAutoPosted:
   - 1
 snapTW:

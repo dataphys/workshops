@@ -3,7 +3,7 @@ title: HotDesking in 2031 with technologies that interact to detect, store, rela
 type: post
 date: 2014-10-13T08:37:11+00:00
 alias: /2014/10/13/hotdesking-in-2031/
-user_submit_pdf: uploads/infoVis-dotd-v2.txt
+user_submit_pdf: uploads/xx-Dykes-HotDesking-in-2031-with-technologies-that-interact-to-detect-store-relate-and-display-information-in-the-physical-environment.pdf
 is_submission:
   - 1
 author: Jason Dykes

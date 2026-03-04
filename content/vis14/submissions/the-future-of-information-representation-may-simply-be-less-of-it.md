@@ -3,7 +3,7 @@ title: The future of information representation may simply be less of it
 type: post
 date: 2014-10-16T16:33:01+00:00
 alias: /2014/10/16/the-future-of-information-representation-may-simply-be-less-of-it/
-featured_image: uploads/jamheader11-604x270.png
+# featured_image: uploads/jamheader11-604x270.png
 user_submit_pdf: uploads/jam1.pdf
 featured_image:  uploads/jamheader1.png
 is_submission:

@@ -3,7 +3,7 @@ title: Projector Display Systems in Visualization
 type: post
 date: 2014-10-13T04:17:49+00:00
 alias: /2014/10/13/projector-display-systems-in-visualization/
-featured_image: uploads/teaser11-604x270.png
+# featured_image: uploads/teaser11-604x270.png
 user_submit_pdf: uploads/beyond-desktop.pdf
 featured_image:  uploads/teaser1.png
 is_submission:
